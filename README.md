@@ -1,3 +1,18 @@
+## Shashi's fork
+
+This fork features code to produce the 4 plots for the Coursera Exploratory Data Analysis -Week 1 assignment
+
+getData.R is a script used by all the plot(1-4).R scripts
+- it contains the function getData()
+- getData gets the data from the folder /data (not uploaded due to size constraints)
+- selects only the dates required for the assignment
+- re-formats the date and time into a single POSIXT object that's easier to use
+- outputs a data.frame object with all the requisite data, ready to be plotted
+
+plot1-4.R output plots to the /figure directory (copies should already be inside for your viewing)
+
+
+
 ## Introduction
 
 This assignment uses data from
